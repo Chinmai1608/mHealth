@@ -1,10 +1,10 @@
 import React from 'react';
-import { Message, Person } from '@mui/icons-material';
+import { ContactPage, Feed, Info, Message, Person } from '@mui/icons-material';
 
 const Navbar = () => {
   return (
     <div>
-      <navbar class="flex flex-row bg-transparent">
+      <navbar class="flex flex-row bg-gradient-to-tr from-white via-white to-rose-100">
         <div class="flex justify-between  w-full">  
         <div class="flex-row flex justify-between w-full pl-8">
             <logo class="text-4xl bg-logobg bg-cover h-24 w-24 px-2">
@@ -15,15 +15,13 @@ const Navbar = () => {
 
             <div class="flex justify-between py-4 px-4 ">
               <item2 class="text-xl px-3 flex flex-col justify-center ">
-                <div>
-                  Aboutus
-                  <Person/>
+                <div class="bg-gradient-to-b from-white via-white to-rose-50 py-2 px-3 rounded-full text-zinc-600">
+                  <Feed/>
                 </div>
               </item2>
               <item3 class="text-xl px-3 flex flex-col justify-center ">
-              <div>
-                  Features
-                  <Message/>
+              <div class="bg-gradient-to-b from-white via-white to-rose-50 py-2 px-3 rounded-full text-zinc-600">
+                  <ContactPage/>
                 </div>
               </item3>
             </div>
