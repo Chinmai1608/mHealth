@@ -1,4 +1,4 @@
-import { AddAPhoto, Coronavirus, Sell, Sick } from '@mui/icons-material'
+import { AddAPhoto, Sell, Sick } from '@mui/icons-material'
 import React from 'react'
 import { useState } from 'react'
 

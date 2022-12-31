@@ -1,5 +1,5 @@
 import React from 'react';
-import { ContactPage, Feed, Info, Message, Person } from '@mui/icons-material';
+import { ContactPage, Feed } from '@mui/icons-material';
 
 const Navbar = () => {
   return (
