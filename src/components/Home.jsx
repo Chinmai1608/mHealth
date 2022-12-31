@@ -1,4 +1,4 @@
-import { Coronavirus, Medication, Sell } from "@mui/icons-material";
+import { Coronavirus, Medication, Sell, Sick } from "@mui/icons-material";
 import React from "react";
 
 const Home = () => {
@@ -22,7 +22,7 @@ const Home = () => {
             <div class="flex flex-col justify-center bg-white shadow-2xl bg-opacity-60 h-fit w-56 rounded-full">
               <div class="font-serif flex-col text-center text-3xl justify-evenly flex my-4 h-36 w-48 bg-blue-300 bg-opacity-30 rounded-t-full mx-4 mb-0 pt-6 cursor-pointer">
                 PATIENT
-                <Coronavirus class="items-center h-7 mt-6"/>
+                <Sick class="items-center h-7 mb-6"/>
               </div>
               <img
                 src="https://thumbs.dreamstime.com/b/d-morph-man-hospital-bed-respirator-render-178294987.jpg"
