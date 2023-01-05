@@ -1,9 +1,9 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-// import Home from '../components/Home'
-// import PatientLogin from './PatientLogin'
-// import DoctorLogin from './DoctorLogin'
-// import SupplierLogin from './SupplierLogin'
+import Home from '../components/Home'
+import PatientLogin from './PatientLogin'
+import DoctorLogin from './DoctorLogin'
+import SupplierLogin from './SupplierLogin'
 import PatientHome from './PatientHome'
 
 export default function Example () {
@@ -11,10 +11,10 @@ export default function Example () {
     <div>
       <Navbar/>
       <PatientHome/>
-      {/* <Home/>
+      <Home/>
       <PatientLogin/>
       <DoctorLogin/>
-      <SupplierLogin/> */}
+      <SupplierLogin/>
     </div>
   )
 };
