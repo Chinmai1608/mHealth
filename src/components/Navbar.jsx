@@ -16,12 +16,12 @@ const Navbar = () => {
             <div class="flex justify-between py-4 px-4 ">
               <item2 class="text-xl px-3 flex flex-col justify-center ">
                 <div class="backdrop-blur-sm from-white via-white to-rose-50 py-2 px-3 rounded-full text-zinc-600">
-                  <Feed class="w-7 h-7 fill-white"/>
+                  <Feed class="w-7 h-7 fill-white cursor-pointer"/>
                 </div>
               </item2>
               <item3 class="text-xl px-3 flex flex-col justify-center ">
               <div class="backdrop-blur-sm from-white via-white to-rose-50 py-2 px-3 rounded-full text-zinc-600">
-                  <ContactPage class="w-7 h-7 fill-white"/>
+                  <ContactPage class="w-7 h-7 fill-white cursor-pointer"/>
                 </div>
               </item3>
             </div>
