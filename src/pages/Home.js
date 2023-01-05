@@ -1,18 +1,20 @@
 import React from 'react'
-import Home from '../components/Home'
 import Navbar from '../components/Navbar'
-import PatientLogin from './PatientLogin'
-import DoctorLogin from './DoctorLogin'
-import SupplierLogin from './SupplierLogin'
+// import Home from '../components/Home'
+// import PatientLogin from './PatientLogin'
+// import DoctorLogin from './DoctorLogin'
+// import SupplierLogin from './SupplierLogin'
+import PatientHome from './PatientHome'
 
 export default function Example () {
   return (
     <div>
       <Navbar/>
-      <Home/>
+      <PatientHome/>
+      {/* <Home/>
       <PatientLogin/>
       <DoctorLogin/>
-      <SupplierLogin/>
+      <SupplierLogin/> */}
     </div>
   )
 };
